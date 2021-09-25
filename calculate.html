@@ -1,0 +1,48 @@
+<html> 
+<head><h1><center>arithematic operations</center></h1>
+<script>
+function add()
+{
+var x,y,z;
+x=Number(document.getElementById("a").value);
+y=Number(document.getElementById("b").value);
+z=x+y;
+document.getElementById("result").value=z;
+}
+function sub()
+{
+var x,y,z;
+x=Number(document.getElementById("a").value);
+y=Number(document.getElementById("b").value);
+z=x-y;
+document.getElementById("result").value=z;
+}
+function mul()
+{
+var x,y,z;
+x=Number(document.getElementById("a").value);
+y=Number(document.getElementById("b").value);
+z=x*y;
+document.getElementById("result").value=z;
+}
+function div()
+{
+var x,y,z;
+x=Number(document.getElementById("a").value);
+y=Number(document.getElementById("b").value);
+z=x/y;
+document.getElementById("result").value=z;
+}
+</script>
+</head>  
+<body><center>
+Enter First Number : <input type="text" id="a"><br><br>
+Enter Second Number: <input type="text" id="b"><br><br>
+Resul              : <input type="text" id="result"><br><br>
+<input type="button" value="Add" onclick="add()">
+<input type="button" value="Sub" onclick="sub()">
+<input type="button" value="Mul" onclick="mul()">
+<input type="button" value="Div" onclick="div()"> 
+</center>
+</body>
+</html>
